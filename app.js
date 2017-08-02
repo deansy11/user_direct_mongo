@@ -28,24 +28,3 @@ if(require.main === module) {
     })
   })
 }
-
-// dbClient.connect((client) => {
-//
-// })
-//
-// app.get('/:id', function(req, res){
-//
-//   let userData = data.users.find((el)=>{
-//     return el.id == req.params.id;
-//   });
-// })
-
-//   console.log(userData);
-//
-//   res.render('profile', userData)
-// })
-//
-// app.listen(app.get('port'), function() {
-//   console.log(
-//     `Node running in mode @ http://localhost:${app.get("port")}`)
-// });
